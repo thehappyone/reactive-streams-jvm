@@ -128,7 +128,6 @@ public abstract class PublisherVerification<T> implements PublisherVerificationR
 
   /**
    * Override and return {@code true} in order to skip executing tests marked as {@code Stochastic}.
-   * Such tests MAY sometimes fail even though the impl
    */
   public boolean skipStochasticTests() {
     return false;
